@@ -35,25 +35,21 @@ class AppNavbar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/tournaments/">Tournaments</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink href="/standings/">Standings</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Actions
+                  Help
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Add Round
+                    About
                   </DropdownItem>
                   <DropdownItem>
-                    something else
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
+                    LUL
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
